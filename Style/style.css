@@ -78,10 +78,11 @@ div > button {
 .about {
     text-align: center;
     background-color: rgb(255, 248, 243);
-    width: 1140px;
-    height: 550px;
+    max-width: 1140px;
+    max-height: 550px;
     border-radius: 10px;
     padding: 131px;
+    margin: 215px 157px;
 }
 .section-title {
     font-size: 35px;
