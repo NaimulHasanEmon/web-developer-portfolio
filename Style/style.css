@@ -34,13 +34,13 @@ header > nav > ul a {
     padding: 0;
 }
 .button {
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     border-radius: 5px;
-    align-items: center;
     background: rgb(253, 110, 10);
     padding: 18px 35px 19px 36px;
     border: none;
+    cursor: pointer;
 }
 div > button {
     display: inline-flex;
@@ -66,6 +66,7 @@ div > button {
     font-weight: 100px;
     border-radius: 5px;
     border-color: rgb(253, 110, 10);
+    cursor: pointer;
 }
 .hardy {
     width: 400px;
@@ -93,6 +94,13 @@ main > section {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    color: rgba(24, 24, 24, 1);
+    font-size: 35px;
+    margin: 20px 0 50px 0;
+    font-weight: 700px;
+}
+#res {
+    margin-top: 130px;
 }
 .section-description {
     font-size: 18px;
@@ -118,4 +126,66 @@ main > section {
 }
 .container-info {
     color: rgba(117, 117, 117, 1);
+}
+.resume-container {
+    display: flex;
+}
+.My-Education {
+    color: rgba(71, 71, 71, 1);
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.education {
+    color: rgba(71, 71, 71, 1);
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.uv {
+    color: rgba(117, 117, 117, 1);
+    margin-top: 5px;
+}
+.edu-details {
+    max-width: 511px;
+    max-height: 84px;
+    padding-right: 100px;
+    color: #757575;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
+}
+hr {
+    width: 95%;
+}
+.download {
+    text-align: center;
+}
+.button-container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer.about {
+    display: flex;
+    max-width: 1600px;
+    max-height: 780px;
+    margin: 131px 0 0 0;
+}
+.connect {
+    text-align: left;
+    margin: 10px 17px 16px 0px;
+}
+.message {
+    text-align: left;
+    margin: 10px 26px 28px 250px ;
+}
+footer img {
+    margin-right: 24px;
+}
+footer form > input {
+    border: none;
+    margin-bottom: 24px;
+    width: 461px;
+height: 64px;
+flex-shrink: 0;
 }
