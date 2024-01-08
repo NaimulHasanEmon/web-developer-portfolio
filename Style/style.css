@@ -74,19 +74,26 @@ div > button {
 
 /* Main Section */
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* About Section */
 .about {
     text-align: center;
     background-color: rgb(255, 248, 243);
-    max-width: 1140px;
-    max-height: 550px;
     border-radius: 10px;
-    padding: 131px;
-    margin: 215px 157px;
+    padding: 130px;
+    margin: 130px 0;
 }
 .section-title {
     font-size: 35px;
 }
 .section-description {
     font-size: 18px;
+}
+.about-information {
+    display: inline-block;
+    margin-right: 50px;
 }
